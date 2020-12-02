@@ -1,0 +1,72 @@
+@keyframes bgcolor {
+  0% {
+      background-color: #45a3e5
+  }
+
+  10% {
+      background-color: #66bf39
+  }
+
+  20% {
+      background-color: yellowgreen
+  }
+
+  30% {
+      background-color: yellow;
+  }
+
+  40% {
+      background-color: navy;
+  }
+
+  50% {
+      background-color: peru;
+  }
+
+  60% {
+      background-color: #eb670f
+  }
+
+  70% {
+      background-color: rosybrown;
+  }
+
+  80% {
+      background-color: grey;
+  }
+
+  90% {
+      background-color: #f35
+  }
+
+  100% {
+      background-color: #864cbf
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 10s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+canvas {
+  display: block;
+  margin: auto;
+  border : 8px solid maroon;
+} 
+#title {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  border-style: inset;
+  background-color: lightblue;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  font-size: 20pt;
+}
